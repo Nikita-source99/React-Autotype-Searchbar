@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.inputBox {
+  width: 500px;
+  height: 25px;
+  font-size: 20px;
+  padding: 5px;
+  outline: none;
+}
+.resteBtn {
+  padding: 10px 10px;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+  background-color: rgb(51, 139, 216);
+}
+.selectNameBox {
+  display: block;
+  justify-content: left;
+  width: 500px;
+  height: 400px;
+  border: 1px solid;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.inputData {
+  padding: 5px;
+}
+.inputData:hover {
+  background-color: rgb(241, 231, 213);
+  cursor: pointer;
+}
